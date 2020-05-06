@@ -8,7 +8,7 @@ public class CreditCardTest {
 
     @Before
     public void before() {
-        creditCard = new CreditCard("1111222233334444", "12/23", 234);
+        creditCard = new CreditCard("1111222233334444", 234, "12/23");
     }
 
     @Test
